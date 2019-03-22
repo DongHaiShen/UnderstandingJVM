@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/第3章-垃圾收集器与内存分配策略" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/第4章-虚拟机性能监控与故障处理工具" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/第6章-类文件结构" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/第7章-虚拟机类加载机制" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

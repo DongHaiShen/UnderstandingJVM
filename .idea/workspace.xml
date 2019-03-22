@@ -12,7 +12,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第7章-虚拟机类加载机制/P228_ClassLoad/ClassLoaderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#276#1002#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -20,6 +34,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getClassLoader</find>
+      <find>loadClass</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,10 +69,23 @@
         <option value="$PROJECT_DIR$/第4章-虚拟机性能监控与故障处理工具/P119_Thread/BusyThread.java" />
         <option value="$PROJECT_DIR$/第4章-虚拟机性能监控与故障处理工具/P121_Syn/SynThread.java" />
         <option value="$PROJECT_DIR$/第6章-类文件结构/TestClass.java" />
+        <option value="$PROJECT_DIR$/第7章-虚拟机类加载机制/P211_PassiveRef/Main.java" />
+        <option value="$PROJECT_DIR$/第7章-虚拟机类加载机制/P211_PassiveRef/PassiveRef1.java" />
+        <option value="$PROJECT_DIR$/第7章-虚拟机类加载机制/P211_PassiveRef/PassiveRef2.java" />
+        <option value="$PROJECT_DIR$/第7章-虚拟机类加载机制/P211_PassiveRef/PassiveRef3.java" />
+        <option value="$PROJECT_DIR$/第7章-虚拟机类加载机制/P225_StaticRef/tEST.java" />
+        <option value="$PROJECT_DIR$/第7章-虚拟机类加载机制/P225_StaticRef/Test.java" />
+        <option value="$PROJECT_DIR$/第7章-虚拟机类加载机制/P226_Clinit/Clinit.java" />
+        <option value="$PROJECT_DIR$/第7章-虚拟机类加载机制/P226_DeadLoop/M.java" />
+        <option value="$PROJECT_DIR$/第7章-虚拟机类加载机制/P226_DeadLoop/DeadLoop.java" />
+        <option value="$PROJECT_DIR$/第7章-虚拟机类加载机制/P228_ClassLoad/M.java" />
+        <option value="$PROJECT_DIR$/第7章-虚拟机类加载机制/P228_ClassLoad/ClassLoadTest.java" />
+        <option value="$PROJECT_DIR$/第7章-虚拟机类加载机制/P228_ClassLoad/ClassLoaderTest.java" />
+        <option value="$PROJECT_DIR$/第7章-虚拟机类加载机制/P223_Field/FieldResolution.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="width" value="1940" />
     <option name="height" value="1060" />
@@ -65,7 +98,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -76,19 +109,25 @@
             <path>
               <item name="UnderstandingJVM" type="b2602c69:ProjectViewProjectNode" />
               <item name="UnderstandingJVM" type="462c0819:PsiDirectoryNode" />
-              <item name="第6章-类文件结构" type="462c0819:PsiDirectoryNode" />
+              <item name="第7章-虚拟机类加载机制" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UnderstandingJVM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnderstandingJVM" type="462c0819:PsiDirectoryNode" />
+              <item name="第7章-虚拟机类加载机制" type="462c0819:PsiDirectoryNode" />
+              <item name="P228_ClassLoad" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552899199070" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553233829299" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="D:/Softwares/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -109,14 +148,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SynThread">
-    <configuration name="Allocation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P93_Allocation.Allocation" />
+  <component name="RunManager" selected="Application.ClassLoaderTest">
+    <configuration name="ClassLoaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P228_ClassLoad.ClassLoaderTest" />
       <module name="UnderstandingJVM" />
-      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="P93_Allocation.*" />
+          <option name="PATTERN" value="P228_ClassLoad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +162,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BusyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P119_Thread.BusyThread" />
+    <configuration name="Clinit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P226_Clinit.Clinit" />
       <module name="UnderstandingJVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="P119_Thread.*" />
+          <option name="PATTERN" value="P226_Clinit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeadLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P226_DeadLoop.DeadLoop" />
+      <module name="UnderstandingJVM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="P226_DeadLoop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FieldResolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P223_Field.FieldResolution" />
+      <module name="UnderstandingJVM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="P223_Field.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,40 +215,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JConsole" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P117_JConsole.JConsole" />
-      <module name="UnderstandingJVM" />
-      <option name="VM_PARAMETERS" value="-Xms100m -Xmx100m -XX:+UseSerialGC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="P117_JConsole.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SynThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P121_Syn.SynThread" />
+    <configuration name="PassiveRef3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P211_PassiveRef.PassiveRef3" />
       <module name="UnderstandingJVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="P121_Syn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TenuringThreshold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P95_Tenuring.TenuringThreshold" />
-      <module name="UnderstandingJVM" />
-      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8 -XX:MaxTenuringThreshold=1 -XX:+PrintTenuringDistribution" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="P95_Tenuring.*" />
+          <option name="PATTERN" value="P211_PassiveRef.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,19 +230,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.HandlePromotion" />
-      <item itemvalue="Application.Allocation" />
-      <item itemvalue="Application.TenuringThreshold" />
-      <item itemvalue="Application.JConsole" />
-      <item itemvalue="Application.BusyThread" />
-      <item itemvalue="Application.SynThread" />
+      <item itemvalue="Application.PassiveRef3" />
+      <item itemvalue="Application.FieldResolution" />
+      <item itemvalue="Application.Clinit" />
+      <item itemvalue="Application.DeadLoop" />
+      <item itemvalue="Application.ClassLoaderTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SynThread" />
-        <item itemvalue="Application.BusyThread" />
-        <item itemvalue="Application.JConsole" />
-        <item itemvalue="Application.TenuringThreshold" />
-        <item itemvalue="Application.Allocation" />
+        <item itemvalue="Application.ClassLoaderTest" />
+        <item itemvalue="Application.DeadLoop" />
+        <item itemvalue="Application.Clinit" />
+        <item itemvalue="Application.FieldResolution" />
+        <item itemvalue="Application.PassiveRef3" />
       </list>
     </recent_temporary>
   </component>
@@ -229,16 +265,18 @@
       <workItem from="1552722427265" duration="51000" />
       <workItem from="1552896770313" duration="1473000" />
       <workItem from="1552909286565" duration="65000" />
+      <workItem from="1553088262212" duration="48000" />
+      <workItem from="1553217620267" duration="7067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24004000" />
+    <option name="totallyTimeSpent" value="31119000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21581769" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22117962" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -247,7 +285,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28611898" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23371105" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31303117" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -255,9 +293,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49932975" visible="true" weight="0.39518413" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932975" weight="0.33002833" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.39518413" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -433,14 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第6章-类文件结构/知识整理.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第6章-类文件结构/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -455,6 +485,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/第6章-类文件结构/TestClass.class">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第6章-类文件结构/知识整理.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第7章-虚拟机类加载机制/知识整理.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第7章-虚拟机类加载机制/P211_PassiveRef/PassiveRef2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第7章-虚拟机类加载机制/P211_PassiveRef/PassiveRef1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第7章-虚拟机类加载机制/P211_PassiveRef/PassiveRef3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第7章-虚拟机类加载机制/P226_Clinit/Clinit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第7章-虚拟机类加载机制/P226_DeadLoop/DeadLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/misc/Launcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="400" column="23" selection-start-line="400" selection-start-column="23" selection-end-line="400" selection-end-column="23" />
+          <folding>
+            <element signature="e#12720#12721#0" expanded="true" />
+            <element signature="e#12790#12791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第7章-虚拟机类加载机制/P225_StaticRef/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第7章-虚拟机类加载机制/P223_Field/FieldResolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第7章-虚拟机类加载机制/P228_ClassLoad/ClassLoaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#276#1002#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
