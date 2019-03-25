@@ -10,6 +10,8 @@
       <sourceFolder url="file://$MODULE_DIR$/第6章-类文件结构" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/第7章-虚拟机类加载机制" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/第8章-虚拟机字节码执行引擎" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/第9章-类加载及执行子系统的案例与实战" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/第10章-早期（编译期）优化" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

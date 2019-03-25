@@ -14,17 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P247_StaticDispatch/StaticDispatch.java">
+        <entry file="file://$PROJECT_DIR$/第10章-早期（编译期）优化/P313_GenericTypes/GenericTypes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-              <folding>
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="252">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -42,6 +35,9 @@
     <findStrings>
       <find>getClassLoader</find>
       <find>loadClass</find>
+      <find>invoke</find>
+      <find>128</find>
+      <find>model</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -50,11 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/第2章-Java内存区域与内存溢出异常/Test.java" />
-        <option value="$PROJECT_DIR$/第2章-Java内存区域与内存溢出异常/P51_HeapOOM/HeapOOM.java" />
-        <option value="$PROJECT_DIR$/第2章-Java内存区域与内存溢出异常/P53_VMStackSOF/JavaVMStack.java" />
-        <option value="$PROJECT_DIR$/第2章-Java内存区域与内存溢出异常/P53_VMStackSOF/JavaVMStackSOF.java" />
-        <option value="$PROJECT_DIR$/第2章-Java内存区域与内存溢出异常/P55_VMStackOOM/JavaVMStackOOM.java" />
         <option value="$PROJECT_DIR$/第2章-Java内存区域与内存溢出异常/P58_MethodAreaOOM/JavaMethodAreaOOM.java" />
         <option value="$PROJECT_DIR$/第2章-Java内存区域与内存溢出异常/P57_Intern/RuntimeConstantPoolOOM.java" />
         <option value="$PROJECT_DIR$/第2章-Java内存区域与内存溢出异常/P59_DirectMemoryOOM/DirectMemoryOOM.java" />
@@ -97,10 +88,19 @@
         <option value="$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P261_MethodHandle/MethodHandleTest.java" />
         <option value="$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P261_MethodHandle/StaticTest.java" />
         <option value="$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P247_StaticDispatch/StaticDispatch.java" />
+        <option value="$PROJECT_DIR$/第9章-类加载及执行子系统的案例与实战/P283_DynamicProxy/DynamicProxyTest.java" />
+        <option value="$PROJECT_DIR$/第10章-早期（编译期）优化/GenericTypes.java" />
+        <option value="$PROJECT_DIR$/第10章-早期（编译期）优化/P313_GenericTypes/GenericTypes.java" />
+        <option value="$PROJECT_DIR$/第10章-早期（编译期）优化/P313_GenericTypes/GenericTypes2.java" />
+        <option value="$PROJECT_DIR$/第10章-早期（编译期）优化/P313_GenericTypes/GenericTypes1.java" />
+        <option value="$PROJECT_DIR$/第10章-早期（编译期）优化/P316_AutoPacking/AutoPacking.java" />
+        <option value="$PROJECT_DIR$/第10章-早期（编译期）优化/P320_NameCheck/NameCheckProcessor.java" />
+        <option value="$PROJECT_DIR$/第10章-早期（编译期）优化/P320_NameCheck/NameChecker.java" />
+        <option value="$PROJECT_DIR$/第10章-早期（编译期）优化/P320_NameCheck/BADLY_NAMED_CODE.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="width" value="1940" />
     <option name="height" value="1060" />
@@ -124,7 +124,7 @@
             <path>
               <item name="UnderstandingJVM" type="b2602c69:ProjectViewProjectNode" />
               <item name="UnderstandingJVM" type="462c0819:PsiDirectoryNode" />
-              <item name="第8章-虚拟机字节码执行引擎" type="462c0819:PsiDirectoryNode" />
+              <item name="第10章-早期（编译期）优化" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -136,14 +136,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553494166041" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553505050653" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="D:/Softwares/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -157,13 +157,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MethodHandleTest">
-    <configuration name="LocalVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P242_LocalVariable.LocalVariable" />
+  <component name="RunManager" selected="Application.AutoPacking">
+    <configuration name="AutoPacking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P316_AutoPacking.AutoPacking" />
       <module name="UnderstandingJVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="P242_LocalVariable.*" />
+          <option name="PATTERN" value="P316_AutoPacking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P283_DynamicProxy.DynamicProxyTest" />
+      <module name="UnderstandingJVM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="P283_DynamicProxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericTypes2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P313_GenericTypes.GenericTypes2" />
+      <module name="UnderstandingJVM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="P313_GenericTypes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,31 +223,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticDispatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P247_StaticDispatch.StaticDispatch" />
-      <module name="UnderstandingJVM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="P247_StaticDispatch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.LocalVariable" />
-      <item itemvalue="Application.StaticDispatch" />
       <item itemvalue="Application.Overload" />
       <item itemvalue="Application.MethodHandleTest" />
+      <item itemvalue="Application.DynamicProxyTest" />
+      <item itemvalue="Application.GenericTypes2" />
+      <item itemvalue="Application.AutoPacking" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AutoPacking" />
+        <item itemvalue="Application.GenericTypes2" />
+        <item itemvalue="Application.DynamicProxyTest" />
         <item itemvalue="Application.MethodHandleTest" />
         <item itemvalue="Application.Overload" />
-        <item itemvalue="Application.StaticDispatch" />
-        <item itemvalue="Application.LocalVariable" />
       </list>
     </recent_temporary>
   </component>
@@ -248,12 +263,12 @@
       <workItem from="1553217620267" duration="12603000" />
       <workItem from="1553346736580" duration="602000" />
       <workItem from="1553476888675" duration="2674000" />
-      <workItem from="1553487395030" duration="2654000" />
+      <workItem from="1553487395030" duration="9956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42585000" />
+    <option name="totallyTimeSpent" value="49887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -268,7 +283,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24787535" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31728044" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.20538244" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -276,9 +291,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932975" weight="0.24220963" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932975" visible="true" weight="0.3796034" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.39518413" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.296034" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -294,84 +309,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第2章-Java内存区域与内存溢出异常/知识整理.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第2章-Java内存区域与内存溢出异常/Test.java" />
-    <entry file="file://$PROJECT_DIR$/第2章-Java内存区域与内存溢出异常/P51_HeapOOM/HeapOOM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第2章-Java内存区域与内存溢出异常/P53_VMStackSOF/JavaVMStackSOF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第2章-Java内存区域与内存溢出异常/P55_VMStackOOM/JavaVMStackOOM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第2章-Java内存区域与内存溢出异常/P58_MethodAreaOOM/JavaMethodAreaOOM.java" />
-    <entry file="file://$PROJECT_DIR$/第2章-Java内存区域与内存溢出异常/P57_Intern/RuntimeConstantPoolOOM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第2章-Java内存区域与内存溢出异常/P56_ConstantPoolOOM/RuntimeConstantPoolOOM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第1章-走近Java/知识整理.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第2章-Java内存区域与内存溢出异常/测试文件.md" />
-    <entry file="file://$PROJECT_DIR$/第3章-垃圾收集器与内存分配策略/知识整理.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第2章-Java内存区域与内存溢出异常/P59_DirectMemoryOOM/DirectMemoryOOM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第3章-垃圾收集器与内存分配策略/P62_ReferenceCount/ReferenceCountingGC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -632,17 +569,134 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第9章-类加载及执行子系统的案例与实战/P283_DynamicProxy/DynamicProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P247_StaticDispatch/StaticDispatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="215">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="e#340#341#0" expanded="true" />
             <element signature="e#388#389#0" expanded="true" />
             <element signature="e#429#430#0" expanded="true" />
             <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
             <element signature="e#575#576#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第10章-早期（编译期）优化/P313_GenericTypes/GenericTypes2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Long.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="1073" column="19" selection-start-line="1073" selection-start-column="19" selection-end-line="1073" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="821" column="61" selection-start-line="821" selection-start-column="58" selection-end-line="821" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第10章-早期（编译期）优化/P316_AutoPacking/AutoPacking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/javax/annotation/processing/Messager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/EnumSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="257" column="49" selection-start-line="257" selection-start-column="49" selection-end-line="257" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第10章-早期（编译期）优化/P320_NameCheck/NameCheckProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第10章-早期（编译期）优化/P320_NameCheck/NameChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="113" column="54" selection-start-line="113" selection-start-column="54" selection-end-line="113" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第10章-早期（编译期）优化/P320_NameCheck/BADLY_NAMED_CODE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第10章-早期（编译期）优化/知识整理.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第10章-早期（编译期）优化/P313_GenericTypes/GenericTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
