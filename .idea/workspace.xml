@@ -14,13 +14,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第7章-虚拟机类加载机制/P228_ClassLoad/ClassLoaderTest.java">
+        <entry file="file://$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P247_StaticDispatch/StaticDispatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+            <state relative-caret-position="173">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#276#1002#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,10 +85,22 @@
         <option value="$PROJECT_DIR$/第7章-虚拟机类加载机制/P228_ClassLoad/ClassLoadTest.java" />
         <option value="$PROJECT_DIR$/第7章-虚拟机类加载机制/P228_ClassLoad/ClassLoaderTest.java" />
         <option value="$PROJECT_DIR$/第7章-虚拟机类加载机制/P223_Field/FieldResolution.java" />
+        <option value="$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/Test.java" />
+        <option value="$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P239_Slot/Slot1.java" />
+        <option value="$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P239_Slot/Slot2.java" />
+        <option value="$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P239_Slot/Slot3.java" />
+        <option value="$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P242_LocalVariable.java" />
+        <option value="$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P242_LocalVariable/L.java" />
+        <option value="$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P242_LocalVariable/LocalVariable.java" />
+        <option value="$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P249_Overload/Overload.java" />
+        <option value="$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P249_OverloadPriority/Overload.java" />
+        <option value="$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P261_MethodHandle/MethodHandleTest.java" />
+        <option value="$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P261_MethodHandle/StaticTest.java" />
+        <option value="$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P247_StaticDispatch/StaticDispatch.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1940" />
     <option name="height" value="1060" />
@@ -109,13 +124,7 @@
             <path>
               <item name="UnderstandingJVM" type="b2602c69:ProjectViewProjectNode" />
               <item name="UnderstandingJVM" type="462c0819:PsiDirectoryNode" />
-              <item name="第7章-虚拟机类加载机制" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UnderstandingJVM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UnderstandingJVM" type="462c0819:PsiDirectoryNode" />
-              <item name="第7章-虚拟机类加载机制" type="462c0819:PsiDirectoryNode" />
-              <item name="P228_ClassLoad" type="462c0819:PsiDirectoryNode" />
+              <item name="第8章-虚拟机字节码执行引擎" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -127,7 +136,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553233829299" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553494166041" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="D:/Softwares/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -148,13 +157,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClassLoaderTest">
-    <configuration name="ClassLoaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P228_ClassLoad.ClassLoaderTest" />
+  <component name="RunManager" selected="Application.MethodHandleTest">
+    <configuration name="LocalVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P242_LocalVariable.LocalVariable" />
       <module name="UnderstandingJVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="P228_ClassLoad.*" />
+          <option name="PATTERN" value="P242_LocalVariable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Clinit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P226_Clinit.Clinit" />
+    <configuration name="MethodHandleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P261_MethodHandle.MethodHandleTest" />
       <module name="UnderstandingJVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="P226_Clinit.*" />
+          <option name="PATTERN" value="P261_MethodHandle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeadLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P226_DeadLoop.DeadLoop" />
+    <configuration name="Overload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P249_OverloadPriority.Overload" />
       <module name="UnderstandingJVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="P226_DeadLoop.*" />
+          <option name="PATTERN" value="P249_OverloadPriority.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,39 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FieldResolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P223_Field.FieldResolution" />
+    <configuration name="StaticDispatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P247_StaticDispatch.StaticDispatch" />
       <module name="UnderstandingJVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="P223_Field.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HandlePromotion" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P99_HandlePromotion.HandlePromotion" />
-      <module name="UnderstandingJVM" />
-      <option name="VM_PARAMETERS" value="-Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8 -XX:-HandlePromotionFailure=false" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="P62_ReferenceCount.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PassiveRef3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P211_PassiveRef.PassiveRef3" />
-      <module name="UnderstandingJVM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="P211_PassiveRef.*" />
+          <option name="PATTERN" value="P247_StaticDispatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,20 +211,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HandlePromotion" />
-      <item itemvalue="Application.PassiveRef3" />
-      <item itemvalue="Application.FieldResolution" />
-      <item itemvalue="Application.Clinit" />
-      <item itemvalue="Application.DeadLoop" />
-      <item itemvalue="Application.ClassLoaderTest" />
+      <item itemvalue="Application.LocalVariable" />
+      <item itemvalue="Application.StaticDispatch" />
+      <item itemvalue="Application.Overload" />
+      <item itemvalue="Application.MethodHandleTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClassLoaderTest" />
-        <item itemvalue="Application.DeadLoop" />
-        <item itemvalue="Application.Clinit" />
-        <item itemvalue="Application.FieldResolution" />
-        <item itemvalue="Application.PassiveRef3" />
+        <item itemvalue="Application.MethodHandleTest" />
+        <item itemvalue="Application.Overload" />
+        <item itemvalue="Application.StaticDispatch" />
+        <item itemvalue="Application.LocalVariable" />
       </list>
     </recent_temporary>
   </component>
@@ -266,17 +245,21 @@
       <workItem from="1552896770313" duration="1473000" />
       <workItem from="1552909286565" duration="65000" />
       <workItem from="1553088262212" duration="48000" />
-      <workItem from="1553217620267" duration="7067000" />
+      <workItem from="1553217620267" duration="12603000" />
+      <workItem from="1553346736580" duration="602000" />
+      <workItem from="1553476888675" duration="2674000" />
+      <workItem from="1553487395030" duration="2654000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31119000" />
+    <option name="totallyTimeSpent" value="42585000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22117962" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22922252" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -284,16 +267,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23371105" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.31303117" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24787535" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.20538244" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932975" weight="0.33002833" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932975" weight="0.24220963" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.39518413" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -575,11 +558,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/第7章-虚拟机类加载机制/P228_ClassLoad/ClassLoaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        <state relative-caret-position="215">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#276#1002#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/知识整理.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/Test.java" />
+    <entry file="file://$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P239_Slot/Slot3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P239_Slot/Slot2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P239_Slot/Slot1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/LocalVariable.java" />
+    <entry file="file://$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P249_OverloadPriority/Overload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P242_LocalVariable/LocalVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/invoke/MethodHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="480" column="53" selection-start-line="480" selection-start-column="53" selection-end-line="480" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P261_MethodHandle/StaticTest.java" />
+    <entry file="file://$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P261_MethodHandle/MethodHandleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第8章-虚拟机字节码执行引擎/P247_StaticDispatch/StaticDispatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/第4章-虚拟机性能监控与故障处理工具" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/第6章-类文件结构" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/第7章-虚拟机类加载机制" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/第8章-虚拟机字节码执行引擎" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
