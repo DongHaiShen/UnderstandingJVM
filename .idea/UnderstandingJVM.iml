@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/第8章-虚拟机字节码执行引擎" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/第9章-类加载及执行子系统的案例与实战" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/第10章-早期（编译期）优化" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/第11章-晚期（运行期）优化" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
